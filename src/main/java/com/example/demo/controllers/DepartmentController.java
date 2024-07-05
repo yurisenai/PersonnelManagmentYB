@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/departments")
+@CrossOrigin(origins="*")
 public class DepartmentController {
     @Autowired
     private DepartmentService departmentService;
